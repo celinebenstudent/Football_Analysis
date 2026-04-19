@@ -26,7 +26,9 @@ The pipeline ingests raw GPS data, stores it in a SQL database, applies quality 
 Football_Analysis/
 │
 ├── data/
-│       ├── summary.csv             # Aggregated player × session KPIs (main data source)
+│       └── game                  # Sample data for testing      
+│       └── practice
+│       └── summary.csv           # Aggregated player × session KPIs (main data source)
 │       └── <overall_practice.pdf
 |       └──<overall_game.pdf   
 │
