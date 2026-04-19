@@ -103,8 +103,6 @@ The notebook builds a DuckDB database (`football.duckdb`) with four layers:
 pip install duckdb pandas numpy matplotlib seaborn jupyterlab
 ```
 
-Open `main.ipynb` in Jupyter and run all cells. The DuckDB database is created automatically on first run.
-
 > **Note:** All file paths in the notebook are relative. Do not use absolute paths.
 
 ---
