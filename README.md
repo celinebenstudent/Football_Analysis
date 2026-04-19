@@ -11,22 +11,16 @@ It provides:
 ## Project structure
 
 ```
-Project_3/
-├─ football_project/
-│  ├─ main.ipynb
-│  ├─ football.duckdb
-│  ├─ data/
-│  │  └─ data/summary.csv
-│  ├─ export_visual_outputs.py
-│  ├─ visual_outputs/              # extracted notebook outputs (gallery)
-│  └─ visual_outputs.zip           # exported plots + HTML tables
-└─ Football_project_R/
-   ├─ main.Rmd
-   ├─ main.html                    # knitted report
-   ├─ main.Rproj
-   ├─ export_rmd_visual_outputs.py
-   ├─ r_visual_outputs/            # extracted HTML-embedded images (gallery)
-   └─ r_visual_outputs.zip
+Football_Analysis/                 
+    |–– readme.md             
+    |–– LICENCE              
+    |–– Bendekoum.Celine.html  
+    |–– data                 
+    |–– results                           
+    ├── sources              
+    ├── main.ipynb             
+    |–– main.Rmd             
+    └── main.Rproj           
 ```
 
 ## Data
