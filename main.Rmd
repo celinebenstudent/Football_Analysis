@@ -596,6 +596,6 @@ error).
   appropriate.  
 - Tracking raw data (position/speed time series) could enable
   intra-session analyses (e.g., fatigue in the second half) not
-  accessible from the aggregated summary.
+  accessible from the aggregated summary. 
 
 ---
