@@ -43,7 +43,7 @@ Football_Analysis/
 
 ## Python (DuckDB monitoring notebook)
 
-Location: `football_project/main.ipynb`
+Location: `main.ipynb`
 
 What it does:
 1. Creates/opens a DuckDB database (`football.duckdb`).
@@ -58,7 +58,7 @@ What it does:
 
 ### Run it
 
-- Open `football_project/main.ipynb` in VS Code or Jupyter.
+- Open `main.ipynb` in VS Code or Jupyter.
 - Run cells top-to-bottom.
 
 Python dependencies (typical):
@@ -71,22 +71,11 @@ pip install duckdb pandas numpy matplotlib seaborn
 
 ### Export the notebook visual outputs
 
-The notebook already includes exported visuals:
-- `football_project/visual_outputs/` (gallery)
-- `football_project/visual_outputs.zip` (shareable bundle)
-
-To re-export from the current notebook file:
-```bash
-python football_project/export_visual_outputs.py football_project/main.ipynb \
-  --out football_project/visual_outputs --include-html --zip football_project/visual_outputs.zip
-```
-
-Open the gallery:
-- `football_project/visual_outputs/index.html`
+Exported visuals may be found in the results folder
 
 ## R (statistical report)
 
-Location: `Football_project_R/main.Rmd` → knitted to `Football_project_R/main.html`
+Location: `main.Rmd`
 
 Scientific questions covered:
 1. **Game vs practice**: are KPI distributions significantly different?
@@ -101,7 +90,7 @@ Methods used:
 
 ### Knit the report
 
-- Open `Football_project_R/main.Rproj` in RStudio.
+- Open `main.Rproj` in RStudio.
 - Knit `main.Rmd` to HTML.
 
 R packages used (as in the report):
@@ -109,13 +98,7 @@ R packages used (as in the report):
 
 ### Export visual outputs from the knitted HTML
 
-If plots are embedded inside `main.html` (base64 images), extract them with:
-```bash
-python Football_project_R/export_rmd_visual_outputs.py --html Football_project_R/main.html --out Football_project_R/r_visual_outputs
-```
-
-Open the gallery:
-- `Football_project_R/r_visual_outputs/index.html`
+Exported visuals may be found in the results folder
 
 ## Notes / limitations
 
